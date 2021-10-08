@@ -7,42 +7,29 @@ grid-row-gap: 20px;
 }
 
 #imagy{
-	grid-row:1;
-text-align: center;
     width: 100%;
     margin: 0 auto;
     float:left;
-    grid-row: 1;
     }
 
 #imgleft img{
-	grid-row:1;
     float:left;
-
     padding-left:0px;
-    width:250px;
 } 
 
 #imgcenter {
 	grid-row:1;
     margin: 0 auto; 
-    width: 70%;
 }
 
 #imgcenter img{
 	grid-row:1;
-    text-align:center;
-    width:250px;
-    height:166px;
  
 }
 
 #imgright img{
 	grid-row:1;
     float:right;
-
-    width:250px;
-    height:166px;
 } 
 
 
