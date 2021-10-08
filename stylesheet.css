@@ -1,7 +1,7 @@
 .parent { 
 display: grid; 
 grid-template-columns: 1fr; 
-grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 5fr;
 grid-row-gap: 20px; 
 }
 
@@ -9,7 +9,7 @@ grid-row-gap: 20px;
 .imagy
 {
 	border: 5px;
-    place-self:  center center; 
+    place-self:  start center; 
     grid-row: 1;
 
     
