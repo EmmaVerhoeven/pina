@@ -1,0 +1,85 @@
+.parent { 
+display: grid; 
+grid-template-columns: 100%; 
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 2px; 
+}
+
+
+.imagy
+{
+	border: 5px;
+    place-self:  center center; 
+    grid-row: 1;
+
+    
+}
+
+
+.texty {
+
+	display: grid;
+	grid-row: 2;
+
+}
+
+
+.rainbowText {
+
+
+  font-family:Times;
+  font-weight: bolder;
+  
+  font-size:70px;
+  text-align: center;
+  background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 35s linear infinite;
+}
+
+@keyframes move {
+  to {
+    background-position: 500vh;
+  }
+}
+
+.button {
+grid-row: 3;
+place-self: start center;
+  background-color: black;
+  border: 1px solid;
+  border-color: black;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-family: arial;
+  font-style: italic;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+  color: cyan;
+}
+
+/* selected link */
+a:active {
+  color: limegreen;
+}
