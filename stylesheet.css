@@ -47,12 +47,12 @@ padding: 10px;
 }
 
 .team {
-
-grid-row: 4;
+Display: grid;
+grid-row: 3;
 }
 
 .button {
-grid-row: 3;
+grid-row: 4;
 place-self: start center;
   background-color: black;
   border: 1px solid;
