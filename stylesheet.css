@@ -7,10 +7,8 @@ grid-row-gap: 20px;
 
 .imagy
 {
-	width: 50px;
-	border: 5px;
-    place-self:  start center; 
     grid-row: 1;
+	place-self:  start center; 
 
     
 }
