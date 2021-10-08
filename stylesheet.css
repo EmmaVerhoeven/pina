@@ -1,12 +1,13 @@
 .parent { 
 display: grid; 
-grid-template-columns: 100%; 
 grid-template-rows: repeat(5, 1fr);
 grid-column-gap: 0px;
-grid-row-gap: 20px; 
+grid-row-gap: 2px; 
 }
 
 #imagy{
+	display: grid; 
+	grid-row:1;
     width: 100%;
     margin: 0 auto;
     float:left;
@@ -18,12 +19,10 @@ grid-row-gap: 20px;
 } 
 
 #imgcenter {
-	grid-row:1;
     margin: 0 auto; 
 }
 
 #imgcenter img{
-	grid-row:1;
  
 }
 
