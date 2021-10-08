@@ -46,6 +46,11 @@ padding: 10px;
   }
 }
 
+.team {
+
+grid-row: 4;
+}
+
 .button {
 grid-row: 3;
 place-self: start center;
@@ -60,7 +65,7 @@ place-self: start center;
   font-size: 16px;
   margin: 4px 2px;
   transition-duration: 0.1s;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 
