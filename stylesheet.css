@@ -18,7 +18,7 @@ grid-row-gap: 20px;
 
 .texty {
 
-	
+	place-self:  start center; 
 	grid-row: 2;
 
 }
