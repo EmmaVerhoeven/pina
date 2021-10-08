@@ -14,7 +14,9 @@ grid-row-gap: 2px;
     }
 
 #imgleft img{
-	width:50px;
+	display:grid;
+	grid-row:1;
+	width:50xp;
     float:left;
     padding-left:0px;
 } 
