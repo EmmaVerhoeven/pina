@@ -7,6 +7,7 @@ grid-row-gap: 20px;
 }
 
 #imagy{
+	grid-row:1;
 text-align: center;
     width: 100%;
     margin: 0 auto;
@@ -15,31 +16,31 @@ text-align: center;
     }
 
 #imgleft img{
+	grid-row:1;
     float:left;
-    padding-bottom:20px;
-    padding-top:20px;
+
     padding-left:0px;
     width:250px;
 } 
 
 #imgcenter {
+	grid-row:1;
     margin: 0 auto; 
     width: 70%;
 }
 
 #imgcenter img{
+	grid-row:1;
     text-align:center;
     width:250px;
     height:166px;
-    padding-bottom:20px;
-    padding-top:20px;
+ 
 }
 
 #imgright img{
+	grid-row:1;
     float:right;
-    padding-bottom:20px;
-    padding-top:20px;
-    padding-right:0px;
+
     width:250px;
     height:166px;
 } 
